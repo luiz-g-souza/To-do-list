@@ -1,0 +1,38 @@
+
+.fog{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000006e;
+}
+
+.form{
+    position: absolute;
+    background-color: var(--color-grey);
+    width: 30rem;
+    height: 17rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #000;
+
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    gap: 1rem;
+}
+
+.form, .fog {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.form.active, .fog.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.form input {
+    padding: 6px;
+    width: 15rem;
+}

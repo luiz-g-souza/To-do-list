@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <script src="./src/js/database.js"></script>
+    <script src="./src/js/domManipulation.js"></script>
+    <title>To do List</title>
+</head>
+<body>
+    <main class="flex column">
+        <div class="fog"></div>
+        <div class="form flex center column">
+            <label for="">
+                Nome<br> 
+                <input type="text" name="" id="name">
+            </label>
+            <label for="">
+                Data<br> 
+                <input type="date" name="" id="date">
+            </label>
+            <input class="btn-adicionar" type="button" value="adicionar">
+        </div>
+        <h1>To do list</h1>
+        <div class="task-list">
+            <table id="list"></table>
+        </div>
+        <span class="adicionar" >adicionar</span>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
