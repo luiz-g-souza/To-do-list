@@ -34,7 +34,18 @@
     opacity: 1;
 }
 
-.form input {
+.form label, .btn-adicionar{
+    max-width: 15rem;
+    width: 100%;
+}
+.form label input {
     padding: 6px;
-    width: 15rem;
+    width: 100%;
+}
+
+.form input {
+}
+
+.btn-adicionar{
+    padding: 6px;
 }
