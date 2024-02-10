@@ -24,6 +24,7 @@ main{
     position: relative;
     max-height: 80vh;
     max-width: 80vw;
+    min-width: 10rem;
     height: 100%;
     width: 100%;
     background-color: var(--color-yellow1);
