@@ -17,6 +17,7 @@ function updateTasks(tasks){
     localStorage.setItem( 'tasks',JSON.stringify(tasks) )
     updateTasksCach()
     populateTable()
+    colorizeLines()
 }
 
 function updateSingleTask(element,taskId){
